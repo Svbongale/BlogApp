@@ -3,9 +3,9 @@
 <div class="ui main text container segment" style="margin: 50px; padding-top: 100px;">
     <div class="ui huge header">New Blog</div>
     <form action="/blogs" method="POST" class="ui form">
-        <div class="field"><label>Title</label> <input type="text" name="blog[title]" placeholder="Title"> </div>
-        <div class="field"><label>Image</label><input type="text" name="blog[image]" placeholder="Image">  </div>
-        <div class="field"><label>Blog Content</label><textarea name="blog[body]"></textarea>  </div>
+        <div class="field"><label>Title</label> <input type="text" name="blog[title]" placeholder="Title" required> </div>
+        <div class="field"><label>Image</label><input type="text" name="blog[image]" placeholder="Image" required>  </div>
+        <div class="field"><label>Blog Content</label><textarea name="blog[body]" required></textarea>  </div>
         <button type="submit" class="ui teal button">Submit</button>
             
     </form>
