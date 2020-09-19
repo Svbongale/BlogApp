@@ -123,7 +123,7 @@ app.delete("/blogs/:id", function(req,res){
 
 
 
-app.listen(3000, function() { 
+app.listen(process.env.PORT, function() { 
 console.log("This is the blog APP");
-console.log('Server listening on port 3000'); 
+console.log('Server listening on port'); 
 });
