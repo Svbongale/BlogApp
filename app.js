@@ -5,7 +5,7 @@ var mongoose  = require("mongoose");
 var methodOverride = require("method-override");
 var  expressSanitizer = require("express-sanitizer");
 
-mongoose.connect("mongodb+srv://svb:ssvvb2103@cluster0.1nmkb.mongodb.net/RestFulBlogAppDB1?retryWrites=true&w=majority",{useNewUrlParser:true, useUnifiedTopology: true, useFindAndModify: false });
+mongoose.connect("mongodb+srv://svb:egfs5555EE%25%25%5E%26%40%23ST%24%23GSVDBBHS%40%23%23@cluster0.1nmkb.mongodb.net/RestFulBlogAppDB1?retryWrites=true&w=majority",{useNewUrlParser:true, useUnifiedTopology: true, useFindAndModify: false });
 app.use(express.static("public"));
 app.use(bodyParser.urlencoded({extended: true}));
 app.use(methodOverride("_method"));
